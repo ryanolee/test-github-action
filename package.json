@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ryanolee/test-github-action#readme",
   "dependencies": {
+    "add": "^2.0.6",
     "jest": "^29.0.2"
   }
 }

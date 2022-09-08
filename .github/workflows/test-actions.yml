@@ -10,5 +10,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      ----- name Run CI
+      - name: Install deps
+        run: npm install
+      - name: Run CI
         run: npm run example
