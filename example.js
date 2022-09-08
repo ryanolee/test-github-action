@@ -1,4 +1,4 @@
 const add = require("add")
 console.log("Wow a node thing")
 
-console.log(add([1,1]))
+console.log(add([1,1,1]))
